@@ -1,5 +1,14 @@
-A Lush Theme for Neovim.
+red.nvim
 ===
 
-See: http://git.io/lush.nvim for more information on Lush and a helper script
-to setup your repo clone.
+Theme preview:
+![Theme preview](img/theme.png)
+
+Based off of the VSCode Red theme.
+
+Make sure to run `:set termguicolors` for the theme to work
+
+Install with packer:
+```lua
+use "GabeeCoding/red.nvim"
+```
